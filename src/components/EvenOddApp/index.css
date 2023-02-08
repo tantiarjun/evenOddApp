@@ -1,0 +1,25 @@
+body {
+  margin: 0px;
+}
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+.bgContainer {
+  background-color: #f1f5f8;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  text-align: center;
+  background-image: linear-gradient(to top, #bfe9ff, #ff6e7f);
+  padding: 40px;
+  border-radius: 10px;
+}
+.button {
+  border-radius: 2px;
+  padding: 5px;
+}
